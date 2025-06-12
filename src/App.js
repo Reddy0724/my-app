@@ -19,6 +19,8 @@ function Button(){
       <button>
         Beauty Products
       </button>
+      <p>we're happy to helip you!!</p>
+      
         
       </div>
    
