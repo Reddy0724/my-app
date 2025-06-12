@@ -19,7 +19,7 @@ function Button(){
       <button>
         Beauty Products
       </button>
-      <p>we're happy to helip you!!</p>
+      <p className="para">we're happy to helip you!!</p>
       
         
       </div>
@@ -39,7 +39,7 @@ function App() {
 
   return (
     <div className="App">
-        <p>
+        <p>  
          Welcome to My page
         </p>
         < Button/>
