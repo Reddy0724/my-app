@@ -5,19 +5,19 @@ function Button(){
     <div className='buttons'>
       <div >
       <button>
-     woman
+     woman's wear
       </button>
       <button>
-        Men
+        Men's wear
       </button>
       <button>
-        Kids
+        Kid's wear
         </button>
       <button>
-        Home
+        Home page
       </button>
       <button>
-        Beauty
+        Beauty Products
       </button>
         
       </div>
