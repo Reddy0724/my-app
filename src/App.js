@@ -3,7 +3,7 @@ import './App.css';
 function Button(){
   return(
     <div className='buttons'>
-      <div className='button'>
+      <div >
       <button>
      woman
       </button>

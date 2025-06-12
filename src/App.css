@@ -1,9 +1,12 @@
 .App {
+  display: inline;
   font-size: 30px;
   font-weight: bold;
   text-align: center;
 }
 .buttons{
+  background-color: blue;
+
 
 
 }
