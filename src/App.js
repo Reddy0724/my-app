@@ -19,7 +19,7 @@ function Button(){
       <button>
         Beauty Merchandise
       </button>
-      <p className="para">we're happy to helip you!!</p>
+      <p className="para">we're happy to help you!!</p>
       
         
       </div>
