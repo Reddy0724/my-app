@@ -14,7 +14,7 @@ function Button(){
         Kid's wear
         </button>
       <button>
-        Home page
+      welcome to Home page
       </button>
       <button>
         Beauty Products
