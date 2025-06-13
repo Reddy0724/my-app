@@ -25,7 +25,7 @@ function Button(){
       </div>
    
       
-      <input placeholder="What you'r looking for?"></input>
+      <input placeholder="how may i help?"></input>
       </div>
       
    
