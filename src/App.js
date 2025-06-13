@@ -17,7 +17,7 @@ function Button(){
       welcome to Home page
       </button>
       <button>
-        Beauty Products
+        Beauty Merchandise
       </button>
       <p className="para">we're happy to helip you!!</p>
       
