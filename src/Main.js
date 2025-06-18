@@ -1,31 +1,41 @@
-import React,{useState}  from 'react';
+import React, { useState } from 'react';
+import Welcome from './Welcome';
+import './App.css';
 
 const Main = () => {
-    // const [showText, setShowText] = useState(false);
-    const [inputField, setInputField] = useState('default value');
-    const [showTextOnClick, setShowTextOnClick] = useState('Text neither entered nor submit clicked');
-    const handleButtonClick = () =>{
-        setShowTextOnClick(inputField);
+
+    const [fullName, setFullName] = useState({
+        firstName: "my first name",
+        lastName: "my last name"
+    });
+
+    const [isloggedIn, setIsloggedIn] = useState(false);
+
+    const inputHandler = (event) =>{
+        setFullName({...fullName,[event.target.name]: event.target.value})
     }
 
-    const inputChangeHandler = (event)=>{
-        console.log(event.target.name, event.target.value)
-        setInputField(event.target.value)
+    const loginHandler = () =>{
+        setIsloggedIn(true);
     }
-
     return (
-        <div>
-            <input 
-                name='inputField'
-                value={inputField}
-                onChange={inputChangeHandler}
-            />
-            <button onClick={handleButtonClick}> submit </button>
-            <div>
-            {/* {showText && "I found a pair for you"} */}
-            <label>Data or Text entered in the input field after clicking Submit button is: </label>
-            {showTextOnClick}
+        <div className='container'>
+            <div className='login'>
+            <label> Login Section </label>
+                <input 
+                    name="firstName"
+                    value={fullName.firstName}
+                    onChange={inputHandler}
+                />
+                <input 
+                    name="lastName"
+                    value={fullName.lastName}
+                    onChange={inputHandler}
+                />
+                <button onClick={loginHandler}>login</button>
             </div>
+            
+            <Welcome isReallyLogged={isloggedIn} fullnameinfo={fullName}/>
         </div>
     )
 }
