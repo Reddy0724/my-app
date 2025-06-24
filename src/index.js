@@ -1,12 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-<<<<<<< HEAD
-import App from './App.js'
+import Main from './Main.js';
 
-
-=======
-import Main from './Main';
->>>>>>> 6bd2b91b9469542167db7616a6e6e6fb611fda33
 
 
 

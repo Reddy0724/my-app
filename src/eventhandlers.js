@@ -1,6 +1,6 @@
 
 
-
+/*
 import React, { useState } from 'react';
 import './eventhandlers';
 
@@ -101,3 +101,4 @@ Delivery</label>
 } 
 
 export default Handlers;
+*/
