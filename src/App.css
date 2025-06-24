@@ -15,10 +15,16 @@
   flex-direction: column;
   height: 100px;
   padding: 20px;
+
 }
 
 .message{
   color: orange;
+  position: fixed;
+  top: 30px;
+  right: 30px;
+  
+
 }
 
 .welcome{
